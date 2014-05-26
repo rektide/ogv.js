@@ -10,3 +10,6 @@
 [submodule "glsl2agal"]
 	path = glsl2agal
 	url = https://github.com/adobe/glsl2agal.git
+[submodule "daala"]
+	path = daala
+	url = https://git.xiph.org/daala.git
