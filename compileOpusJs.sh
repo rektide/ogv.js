@@ -21,5 +21,8 @@ emmake make
 emmake make install
 
 cd ..
+
+emcc -O2 -s ASM_JS=1 -s EXPORTED_FUNCTIONS="['_opus_decoder_create', '_opus_decode_float', '_opus_decoder_destroy', '_opus_encoder_init', '_opus_encode_float', '_opus_encoder_destroy']" libopus/.libs/libopus.a -o libopus.js
+
 cd ..
 cd ..
